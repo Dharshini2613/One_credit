@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        a {
+            padding-right: 25px;
+            text-decoration: none;
+            color: gold;
+        }
+
+        #hd {
+            background-color: maroon;
+            color: silver;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="hd">
+        <h3>Course Details</h3>
+        <hr>
+        <div id="nav">
+            <a href="Home2.html">Home</a>
+            <a href="New_Course.html">New Course</a>
+            <a href="Update.html">Modify Course</a>
+            <a href="Remove.html">Remove Course</a>
+            <a href="Read.php">View Course</a>
+        </div>
+    </div>
+    <center>
+        <form action="Save.php" method="post">
+            <h3>New Course
+                <hr>
+            </h3>
+            Course Name : <input type="text" name="cna"> <br>
+            Course Fees : <input type="text" name="cfe"> <br>
+            <button type="reset">Clear</button>
+            <button type="submit">Submit</button>
+        </form>
+    </center>
+</body>
+
+</html>
